@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Welcome to the Interactive Playground 🎉</h1>
+</header>
+
+<main>
+  <section class="buttons">
+    <button id="magic-btn">Click Me!</button>
+    <button id="secret-btn">Double Click Me!</button>
+  </section>
+
+  <section class="gallery">
+    <h2>Image Gallery</h2>
+    <img id="gallery-img" src="/image1.jpg" alt="Gallery Image">
+    <button id="next-img">Next Image</button>
+  </section>
+
+  <section class="tabs">
+    <div class="tab-buttons">
+      <button class="tab-link" data-tab="tab1">Tab 1</button>
+      <button class="tab-link" data-tab="tab2">Tab 2</button>
+    </div>
+    <div class="tab-content" id="tab1">This is content for Tab 1.</div>
+    <div class="tab-content tab2" id="tab2">This is content for Tab 2.</div>
+  </section>
+
+  <section class="form-section">
+    <form id="signup-form">
+      <label>Email:
+        <input type="email" id="email" required>
+      </label>
+      <label>Password:
+        <input type="password" id="password" required minlength="8">
+      </label>
+      <button type="submit">Submit</button>
+      <div id="form-feedback"></div>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Created with ❤️ by a Alex Kimari</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
